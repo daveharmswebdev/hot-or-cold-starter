@@ -41,10 +41,7 @@ $(document).ready(function(){
 		}
 
 		function pickNumAnyNum() {
-			// return parseInt(Math.random() * 100);
-			for (x = 0; x < 101; x++) {
-				console.log(parseInt(Math.random() * 100));
-			}
+			return parseInt(Math.random() * 100);
 		}
 
 });
